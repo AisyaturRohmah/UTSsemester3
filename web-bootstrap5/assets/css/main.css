@@ -1,0 +1,62 @@
+/* untuk header */
+.main-nav{
+    background-color: #03045e;
+}
+.main-nav .navbar-nav a.nav-link{
+    color: #ffffff;
+    font: weight 600px;
+}
+.main-nav .navbar-nav .nav-link.active, .main-nav .navbar-nav .nav-link:hover {
+    color: #61a5c2;
+}
+
+.navbar.scrolled {
+    background-color: #ffffff;
+    transition: background-color 0.5s ease;
+    box-shadow: 0px -10px 30px #666;
+}
+.navbar.scrolled a.nav-link {
+    color: #666;
+}
+.navbar img.main-logo{
+    max-width: 150px;
+
+}
+
+/* untuk global */
+.main-biru{
+    background-color: #9f86c0;
+    color: #ffffff;
+}
+
+.main-biru h2 span {
+    color:#03045e;
+}
+
+button.btn-primary{
+    background-color: #03045e;
+}
+
+h2.main-judul::after{
+    margin:auto;
+    margin-top: 20px;
+    display: block;
+    border-bottom: 10px solid#03045e;
+    width: 100px;
+    border-radius: 25px;
+    content: "";
+
+}
+
+/* untuk kolaborasi */
+#main-kolaborasi img{
+    max-height: 50Spx;
+    max-width: 150px;
+}
+#main-kolaborasi a{
+    display: inline-block;
+    word-spacing: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
